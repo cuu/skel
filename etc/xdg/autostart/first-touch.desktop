@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.1
+Type=Application
+Name=First start tip window
+Comment=first start
+Exec=bash /usr/local/bin/chgpas.sh
+StartupNotify=true
+Terminal=false
+NoDisplay=true
+NotShowIn=GNOME;KDE;XFCE;
