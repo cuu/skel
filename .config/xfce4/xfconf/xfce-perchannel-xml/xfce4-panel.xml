@@ -16,8 +16,9 @@
         <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="28"/>
         <value type="int" value="2"/>
+        <value type="int" value="7"/>
+        <value type="int" value="9"/>
       </property>
       <property name="leave-opacity" type="uint" value="100"/>
     </property>
@@ -52,20 +53,21 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
         <value type="string" value="networkmanager applet"/>
-        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="pasystray"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="vlc"/>
         <value type="string" value="blueman"/>
         <value type="string" value="nm-applet"/>
-        <value type="string" value="pasystray"/>
       </property>
       <property name="known-legacy-items" type="array">
         <value type="string" value="xfce4-power-manager"/>
       </property>
     </property>
-    <property name="plugin-28" type="string" value="pulseaudio">
+    <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="vlc"/>
     </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
   </property>
 </channel>
