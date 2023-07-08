@@ -18,7 +18,7 @@
         <value type="int" value="6"/>
         <value type="int" value="2"/>
         <value type="int" value="7"/>
-        <value type="int" value="9"/>
+        <value type="int" value="8"/>
       </property>
       <property name="leave-opacity" type="uint" value="100"/>
     </property>
@@ -69,5 +69,6 @@
       <property name="mpris-players" type="string" value="vlc"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-8" type="string" value="power-manager-plugin"/>
   </property>
 </channel>
