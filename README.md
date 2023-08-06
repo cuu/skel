@@ -29,6 +29,7 @@ sudo usermod -a -G adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,
 
 sudo rm /etc/ssh/sshd_config.d/rename_user.conf  
 
+```
 sudo bash -c 'cat <<EOF > /etc/systemd/system/x11-autologin.service
 
 [Unit]
@@ -57,6 +58,7 @@ Restart=no
 WantedBy=graphical.target
 
 EOF'
+```
 
 sudo apt install -y git
 
