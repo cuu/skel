@@ -1,7 +1,9 @@
-
 For devterm cm4 with 2023-05-03-raspios-bullseye-arm64-lite.img
 
 only xfce4
+
+`git clone -b  devterm-cm4-xfce4 https://github.com/cuu/skel.git`  
+
 
 sudo apt remove raspberrypi-kernel -y  
 sudo apt-mark hold raspberrypi-kernel  
