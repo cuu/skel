@@ -67,3 +67,23 @@ sudo apt install -y xfce4-terminal
 sudo apt install -y greybird-gtk-theme  xfce4-power-manager-plugins
 
 
+sudo apt install -y devterm-thermal-printer-cm4 devterm-thermal-printer-cups devterm-wiringpi-cm4-cpi devterm-fan-temp-daemon-cm4  devterm-audio-patch   devterm-backlight-rpi-cm4  
+
+
+sudo apt install -y devterm-tic80-cpi uconsole-love2d retroarch dosbox  devterm-cavestory-cpi-cm4 mame uconsole-liko12 uconsole-lowresnx opentyrian openttd minetest uconsole-dosbox-staging pppoe  
+
+```
+sudo bash -c 'cat << EOF > /etc/modprobe.d/blacklist-qmi.conf
+blacklist qmi_wwan
+blacklist cdc_wdm
+EOF'
+```
+
+sudo sed -i 's/StrategyGame;//g'  /usr/share/applications/openttd.desktop  
+sudo sed -i 's/Exec=openttd/Exec=\/usr\/games\/openttd/' /usr/share/applications/openttd.desktop  
+
+sudo sed -i 's/Exec=opentyrian/Exec=\/usr\/games\/opentyrian/' /usr/share/applications/opentyrian.desktop  
+sudo sed -i 's/ArcadeGame;//g' /usr/share/applications/opentyrian.desktop  
+
+sudo sed -i 's/Simulation;//g'  /usr/share/applications/net.minetest.minetest.desktop  
+sudo sed -i 's/Exec=minetest/Exec=\/usr\/games\/minetest/' /usr/share/applications/net.minetest.minetest.desktop  
