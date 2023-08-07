@@ -87,3 +87,11 @@ sudo sed -i 's/ArcadeGame;//g' /usr/share/applications/opentyrian.desktop
 
 sudo sed -i 's/Simulation;//g'  /usr/share/applications/net.minetest.minetest.desktop  
 sudo sed -i 's/Exec=minetest/Exec=\/usr\/games\/minetest/' /usr/share/applications/net.minetest.minetest.desktop  
+
+```
+sudo bash -c 'cat <<EOF > /etc/apt/preferences.d/cpi
+Package: raspberrypi-kernel raspberrypi-kernel:armhf
+Pin: release *
+Pin-Priority: -1
+EOF'
+```
