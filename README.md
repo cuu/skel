@@ -62,6 +62,8 @@ WantedBy=graphical.target
 EOF'
 ```
 
+ln -s /etc/systemd/system/x11-autologin.service /etc/systemd/system/multi-user.target.wants/
+
 sudo apt install -y git
 
 sudo apt install -y xfce4-terminal 
