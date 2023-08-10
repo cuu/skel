@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Obsidian
+Comment=Obsidian
+Exec=/usr/local/bin/obsidian
+Icon=/opt/obsidian.png
+Path=
+Terminal=false
+StartupNotify=false
