@@ -7,7 +7,9 @@ only xfce4
 
 sudo apt remove raspberrypi-kernel -y  
 sudo apt-mark hold raspberrypi-kernel  
-sudo apt install -y devterm-kernel-cm4-rpi
+sudo apt install -y devterm-kernel-cm4-rpi  
+
+
 /etc/default/keyboard  
 
 ```
